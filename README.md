@@ -79,4 +79,4 @@ El archivo resultante debe tener las siguientes características:
 * Se deben poder leer correctamente los caracteres especiales que estén presentes en los campos actuales del archivo. 
 * El encoding del archivo final debe ser UTF-8 (datos_de_santander.tsv es un archivo UTF-16LE)
 
-● El script correspondiente a este punto se denomina "test_python.py"
+#### ● El script correspondiente a este punto se denomina "test_python.py"
