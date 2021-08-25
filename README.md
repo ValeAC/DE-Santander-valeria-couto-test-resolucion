@@ -28,11 +28,11 @@ Como resolvería este tipo de petición? Explique detalladamente el proceso de l
 ### Ejercicio 1
 Realice el DER que de soporte al modelo dimensional solicitado por la banca privada.
 
-Se definieron dos Hechos:
+## Se definieron dos Hechos:
 Primer Login
 Actividad
 
-Dimensiones
+## Dimensiones
 Fecha
 Ciudad (sugerencia para posibles mediciones)
 
