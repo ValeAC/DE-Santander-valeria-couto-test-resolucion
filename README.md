@@ -66,7 +66,7 @@ En cuanto el proceso de limpieza y transformacion se tienen en cuenta los siguie
 ### Ejercicio 3
 #### Escriba la consulta necesaria para obtener el KPI de retención de clientes para los 10 clientes que mas veces se hayan logueado en el último mes.
 
-● La consulta correspondiente a los 10 clientes que más veces se hayan logueado se encuentra en el script "EJERCICIO#.SQL". Donde también desarrollo la query correspondiente al punto 3 de las consideraciones técnicas a tener en cuenta.
+● La consulta correspondiente a los 10 clientes que más veces se hayan logueado se encuentra en el script "EJERCICIO3.SQL". Donde también desarrollo la query correspondiente al punto 3 de las consideraciones técnicas a tener en cuenta.
 
 ### Python 
 (Para hacerlo interesante, usar Python 2.7)
