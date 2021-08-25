@@ -36,6 +36,8 @@ En cuanto el proceso de limpieza y transformacion se tienen en cuenta los siguie
 
 ● Se genera campo DOSD_FL para almacenar si un usuario se conecta por dos dias consecutivos
 
+En cuanto al desarrollo del DW se prefiere un modelado dimensional con el objetivo de que sea compatible con herramientas BI como ser Power BI o Qliksense. Asi tambien poder optimizar las consultas.
+
 ### Ejercicio 1
 #### Realice el DER que de soporte al modelo dimensional solicitado por la banca privada.
 
