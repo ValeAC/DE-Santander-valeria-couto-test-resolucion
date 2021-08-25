@@ -23,25 +23,25 @@ Tenga en cuenta las siguientes consideraciones técnicas:
 3.	Uno de los KPIs mas importantes que tiene la organización es la de retención de clientes. Dicho KPI es el porcentaje de usuarios que realizaron una actividad diferente al login durante 2 dos días consecutivos y cuya sesión haya durando al menos 5 minutos.
 
 ### Pregunta 1
-Como resolvería este tipo de petición? Explique detalladamente el proceso de limpieza y transformación del modelo inicial. Que tecnologías utilizaría y por que?
+#### Como resolvería este tipo de petición? Explique detalladamente el proceso de limpieza y transformación del modelo inicial. Que tecnologías utilizaría y por que?
 
 ### Ejercicio 1
-# Realice el DER que de soporte al modelo dimensional solicitado por la banca privada.
+#### Realice el DER que de soporte al modelo dimensional solicitado por la banca privada.
 
-## Se definieron dos Hechos:
+### Se definieron dos Hechos:
 ● Primer Login
 ● Actividad
 
-## Dimensiones
+### Dimensiones
 ● Fecha
 ● Ciudad (sugerencia para posibles mediciones)
 
-![image] (https://github.com/ValeAC/DE-Santander-valeria-couto-test-resolucion/blob/main/Modelo_dimensional-ACTIVIDAD.png)
+![image](https://github.com/ValeAC/DE-Santander-valeria-couto-test-resolucion/blob/main/Modelo_dimensional-ACTIVIDAD.png)
 
-![image] (https://github.com/ValeAC/DE-Santander-valeria-couto-test-resolucion/blob/main/Modelo_dimensional-PRIMER%20LOGIN.png)
+![image](https://github.com/ValeAC/DE-Santander-valeria-couto-test-resolucion/blob/main/Modelo_dimensional-PRIMER%20LOGIN.png)
 
 ### Ejercicio 2 
-# Escriba las queries necesarias partiendo de la tabla inicial y que de como resultado el modelo planteado en el ejercicio anterior.
+#### Escriba las queries necesarias partiendo de la tabla inicial y que de como resultado el modelo planteado en el ejercicio anterior.
 
 ● Las queries realizadas para crear las tablas del modelo anterior se encuentran en el Script "SCRIPT_CREACION.SQL"
 
@@ -53,7 +53,7 @@ de BIGQUERY para realizar el insert a actividad. Con la finalidad de tener contr
 En el cual se genera una tabla temporal que obtiene la fecha minima de login de cada usuario, para luego validar que  no existe en la tabla "primer_login" e insertar la información.
 
 ### Ejercicio 3
-Escriba la consulta necesaria para obtener el KPI de retención de clientes para los 10 clientes que mas veces se hayan logueado en el último mes.
+#### Escriba la consulta necesaria para obtener el KPI de retención de clientes para los 10 clientes que mas veces se hayan logueado en el último mes.
 
 
 ### Python 
